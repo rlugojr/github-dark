@@ -285,6 +285,9 @@ th {
 .pl-e, .pl-en {
     color: #a58bcc;
 }
+.pl-k {
+    color: #d46397;
+}
 /* Repo */
 
 .repository-meta {
