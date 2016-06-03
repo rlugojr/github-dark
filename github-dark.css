@@ -204,6 +204,13 @@ p {
 .numbers-summary .nolink {
     color: #bdbdbd;
 }
+.recently-touched-branches {
+    background-color: #504a36;
+    border-color: #f1ecdb;
+}
+.recently-pushed-branch-details a {
+    color: #d2ce98;
+}
 .branch-infobar {
     color: #eee;
     background-color: #586b75;
@@ -275,6 +282,9 @@ th {
 .pl-sr .pl-sre {
     color: #5291d4;
 }
+.pl-e, .pl-en {
+    color: #a58bcc;
+}
 /* Repo */
 
 .repository-meta {
@@ -329,6 +339,21 @@ table.files tr.navigation-focus td {
 
 .note p {
     color: #666;
+}
+
+/* Issues P1 */
+
+.table-list {
+    border-bottom: 1px solid #666;
+}
+/* Issues P2 */
+.gh-header-meta {
+    padding-bottom: 20px;
+    margin-top: 9px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #767676;
+    border-bottom: 1px solid #666;
 }
 /* Pull Request */
 
